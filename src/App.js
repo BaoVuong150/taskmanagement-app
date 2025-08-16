@@ -19,7 +19,7 @@ function App() {
     }, []);
 
     // JSON Server API
-    const API_BASE_URL = 'http://localhost:8000';
+    const API_BASE_URL = 'taskmanagement-app-production-dff8.up.railway.app';
 
     // Check localStorage cho existing session
     const checkExistingAuth = async () => {
