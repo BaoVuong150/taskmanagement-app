@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "password123",
+      "email": "admin@taskmanager.com",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "userpass123",
+      "email": "user1@taskmanager.com",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "username": "demo",
+      "password": "demo123",
+      "email": "demo@taskmanager.com",
+      "createdAt": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "1755079845278",
+      "username": "giabao",
+      "password": "123456789",
+      "email": "bao@gmail.com",
+      "createdAt": "2025-08-13T10:10:45.278Z"
+    },
+    {
+      "id": "1755080926448",
+      "username": "baovuong",
+      "password": "123456789",
+      "email": "bao123@gmail.com",
+      "createdAt": "2025-08-13T10:28:46.448Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "Setup JSON Server",
+      "description": "Cài đặt và cấu hình JSON Server cho project",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2024-08-01",
+      "createdAt": "2024-07-25T10:00:00.000Z",
+      "updatedAt": "2024-07-26T14:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "title": "Build React Components",
+      "description": "Tạo các components theo kiến trúc bottom-up",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2024-08-15",
+      "createdAt": "2024-07-25T11:00:00.000Z",
+      "updatedAt": "2024-07-26T09:15:00.000Z"
+    },
+    {
+      "title": "Write Unit Testingsssss",
+      "description": "Tạo test cases cho tất cả components",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-08-20",
+      "id": "3",
+      "userId": "1",
+      "createdAt": "2025-08-11T09:13:53.617Z",
+      "updatedAt": "2025-08-11T09:13:53.617Z"
+    },
+    {
+      "id": "4",
+      "userId": 2,
+      "title": "Learn React Hooks",
+      "description": "Học và thực hành useState, useEffect, useRef",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2024-08-10",
+      "createdAt": "2024-07-24T09:00:00.000Z",
+      "updatedAt": "2024-07-26T08:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": 2,
+      "title": "Deploy Application",
+      "description": "Deploy ứng dụng lên Vercel hoặc Netlify",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2024-08-25",
+      "createdAt": "2024-07-24T10:00:00.000Z",
+      "updatedAt": "2024-07-24T10:00:00.000Z"
+    },
+    {
+      "title": "Đi xem múa hát",
+      "description": "Kiếm tiền để giàu có cho ba đi nhậu",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-12-24",
+      "id": "1754903684175",
+      "userId": 1,
+      "createdAt": "2025-08-11T09:15:01.434Z",
+      "updatedAt": "2025-08-11T09:15:01.434Z"
+    },
+    {
+      "id": "1755075231829",
+      "title": "asasasas",
+      "description": "asasasas",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-02-22",
+      "userId": 3,
+      "createdAt": "2025-08-13T08:53:51.829Z",
+      "updatedAt": "2025-08-13T08:53:51.829Z"
+    },
+    {
+      "id": "1755075809746",
+      "title": "asdsad",
+      "description": "fdgdfgdfgdf",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2222-02-22",
+      "userId": 1,
+      "createdAt": "2025-08-13T09:03:29.746Z",
+      "updatedAt": "2025-08-13T09:03:29.746Z"
+    },
+    {
+      "id": "1755079857344",
+      "title": "test2",
+      "description": "trsadasdsad",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2025-12-12",
+      "userId": 1755079845278,
+      "createdAt": "2025-08-13T10:10:57.344Z",
+      "updatedAt": "2025-08-13T10:10:57.344Z"
+    },
+    {
+      "id": "1755082474942",
+      "title": "test user baovuong",
+      "description": "test user baovuong",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2025-12-06",
+      "userId": 1755080926448,
+      "createdAt": "2025-08-13T10:54:34.942Z",
+      "updatedAt": "2025-08-13T10:54:34.942Z"
+    }
+  ]
+}
